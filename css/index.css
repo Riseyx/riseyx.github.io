@@ -2,7 +2,9 @@
 #container {
   max-width: 980px;
   margin: 90px auto 75px;
-  padding: 0 15px; }
+  padding: 0 15px;
+  flex: 1;
+  width: -webkit-fill-available; }
   @media screen and (max-width: 600px) {
     #container {
       margin-top: 20px;
@@ -17,8 +19,14 @@ a {
   a:hover {
     opacity: .7; }
 
+html {
+  height: 100%; }
+
 body {
-  font-family: -apple-system, system-ui, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif; }
+  font-family: -apple-system, system-ui, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
 
 @font-face {
   font-family: 'BebasNeue';
@@ -132,11 +140,16 @@ body {
         justify-content: space-around; } }
 
 #footer {
-  margin-top: 80px;
   font-size: 14px;
   line-height: 22px;
   opacity: 0.8;
-  color: #333; }
+  color: #333;
+  max-width: 980px;
+  width: -webkit-fill-available;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px; }
   #footer .copyright {
     float: right; }
   @media screen and (max-width: 800px) {

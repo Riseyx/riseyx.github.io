@@ -1,7 +1,9 @@
 #container {
   max-width: 980px;
   margin: 90px auto 75px;
-  padding: 0 15px; }
+  padding: 0 15px;
+  flex: 1;
+  width: -webkit-fill-available; }
   @media screen and (max-width: 600px) {
     #container {
       margin-top: 20px;
