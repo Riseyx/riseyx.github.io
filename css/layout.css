@@ -3,7 +3,8 @@
   margin: 90px auto 75px;
   padding: 0 15px;
   flex: 1;
-  width: -webkit-fill-available; }
+  width: -webkit-fill-available;
+  width: -moz-available; }
   @media screen and (max-width: 600px) {
     #container {
       margin-top: 20px;
