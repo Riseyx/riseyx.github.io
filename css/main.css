@@ -595,6 +595,8 @@ video {
 }
 .head-nav__link {
   color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 .head-nav__link:hover {
   color: #f0f0f0;
@@ -994,7 +996,7 @@ video {
     margin-top: 10px;
   }
   .head-nav__item {
-    margin: 0 5px;
+    margin: 0 10px;
     margin-left: 0;
   }
   .post {
