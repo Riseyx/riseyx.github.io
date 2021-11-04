@@ -547,7 +547,6 @@ video {
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
@@ -557,6 +556,20 @@ video {
 }
 .index-wrapper header {
   z-index: 10;
+}
+.main-page-body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-page-slogan {
+  text-align: center;
+  margin: 20px auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
 }
 #particles-oli-wrapper {
   position: fixed;
